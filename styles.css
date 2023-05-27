@@ -45,6 +45,14 @@ body{
     margin-top: 2vw;
 }
 
+.img{
+    transition: transform 1s ease-in-out;
+}
+
+.img:hover{
+    transform: scale(1.1);
+}
+
 .pic-one{
     margin-top: 1vw;
 }
