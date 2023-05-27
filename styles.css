@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #1B1B1B;
+    height: 100vh;
+    width: 100vw;
+}
+
+.name{
+    color:rgba(143, 148, 255, 1);
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 2vw;
+    vertical-align: top;
+    margin-top: 5vw;
+}
+
+.title{
+    color:rgba(255, 255, 255, 1);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 2vw;
+    font-style: bold;
+    line-height: 1;
+}
+
+.item-detail{
+    color:rgba(255, 255, 255, 1);
+    opacity: 0.5;
+}
+
+#cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 38px;
+    flex-wrap: wrap;
+    margin-top: 2vw;
+}
+
+.pic-one{
+    margin-top: 1vw;
+}
+
+.pic-two{
+    margin-top: 7vw;
+}
+
+.pic-four{
+    margin-top: 5vw;
+}
+
+.pic-five{
+    margin-bottom: 1vw;
+}
+
+span{
+    margin-top: 1vw;
+}
+
+@media(max-width : 744px){
+
+    .name{
+        font-size: 4vw;
+    }
+
+    .title{
+        font-size: 20px;
+    }
+
+    .item-detail{
+        text-align: center;
+    }
+}
